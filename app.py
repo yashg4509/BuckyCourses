@@ -66,6 +66,7 @@ async def start():
     
     while files is None:
         files = await cl.AskFileMessage(
+        author="Bucky",
         content="Please upload a Dars file to begin!",
         accept=["application/pdf"],
         max_size_mb=20,
