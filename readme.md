@@ -20,7 +20,7 @@
 <br />
 <br />
 
-![Watch our demo here](https://www.youtube.com/watch?v=ujYCJ9PE1Go&ab_channel=SkandaVyas)
+<a href="https://www.youtube.com/watch?v=ujYCJ9PE1Go&ab_channel=SkandaVyas">Watch our demo here!</a>
 
 </div>
 
