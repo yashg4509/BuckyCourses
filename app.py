@@ -15,12 +15,13 @@ from langchain.memory import ConversationBufferMemory
 from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 from langchain.utilities import GoogleSearchAPIWrapper
-import pandas as pd
+import io
 import os
 import PyPDF2
 import re
 import csv
 import pdftocsv
+import pandas as pd
 
 os.environ["OPENAI_API_KEY"] = "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"
 
@@ -87,7 +88,11 @@ async def start():
     #my_data=pdftocsv.extract_course_data(text)
     print("done")
     
-    msg = cl.Message(content=f"Finished Processing file...")
+    df = pd.read_csv('data/output.csv')
+
+# Check if all valid headers are present in the DataFrame
+    result = ' ,'.join(df['Course'])
+    msg = cl.Message(content=f"I see that you have take the following courses :{result}. \n What can I help you with today?")
     await msg.send()
 
 

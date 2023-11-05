@@ -29,7 +29,7 @@ def convert_to_text(pdf_content_text):
                 print("hi2")
                 start_extracting = False
 
-    print(extracted_data)
+    
   
 
 
