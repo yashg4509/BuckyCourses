@@ -40,8 +40,8 @@ If you are a Computer Science major at UW Madison
 - 🔹 unsure about pre requisites are required to take a course?
 - 🔹 want to know GPA related information on any course?
 
-Look no further! We present to you the most powerful tool in your academic arsenal – the Bucky Courses
-# YOU DONT NEED TO WAIT FOR AN ADVISOR'S APPOINTMENT NO MORE #
+Look no further! We present to you the most powerful tool in your academic arsenal – the Bucky Courses 
+**YOU DONT NEED TO WAIT FOR AN ADVISOR'S APPOINTMENT NO MORE **
 
 ## What do you mean by "headless" ?
 
