@@ -93,7 +93,7 @@ async def start():
 
 # Check if all valid headers are present in the DataFrame
     result = ' ,'.join(df['Course'])
-    msg = cl.Message(content=f"I see that you have take the following courses :{result}. \n What can I help you with today?")
+    msg = cl.Message(content=f"I see that you have take the following courses :{result}. \n \n What can I help you with today?")
     await msg.send()
 
 
