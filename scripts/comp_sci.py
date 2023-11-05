@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('../data/comp_sci_with_avg_gpa.csv')
+df = pd.read_csv('../data/dars.csv')
 
 # Define a function to extract the course number
 def extract_course_number(course_code):
@@ -12,10 +12,10 @@ def extract_course_number(course_code):
     return course_code
 
 # Apply the extraction to the 'Course Code' column
-df['Course Code'] = df['Course Code'].apply(extract_course_number)
+df['Course'] = df['Course'].apply(extract_course_number)
 
 # Save the modified DataFrame back to a CSV file
-df.to_csv('../data/comp_sci_filtered_avg.csv', index=False)
+df.to_csv('../data/dars_filtered.csv', index=False)
 
 # import requests
 # from bs4 import BeautifulSoup
