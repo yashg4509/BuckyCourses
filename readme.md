@@ -37,14 +37,6 @@ If you are a Computer Science major at UW Madison
 Look no further! We present to you the most powerful tool in your academic arsenal – the Bucky Courses 
 ### YOU DONT NEED TO WAIT FOR AN ADVISOR'S APPOINTMENT NO MORE
 
-## What do you mean by "headless" ?
-
-Instead of being limited to a set of pre-styled components, **refine** provides collections of helper `hooks`, `components`, `providers`, and more. Since business logic and the UI are completely decoupled, you can customize the UI without constraints.
-
-It means that **refine** just works _seamlessly_ with any _custom designs_ or _UI frameworks_. Thanks to it's headless architecture, you can use popular CSS frameworks like [TailwindCSS](https://tailwindcss.com/) or even create your own styles from scratch.
-
-refine also provides integrations with [Ant Design](https://ant.design/), [Material UI](https://mui.com/material-ui/getting-started/overview/), [Mantine](https://mantine.dev/), and [Chakra UI](https://chakra-ui.com/) to get you started quickly. These libraries are a set of components that are nicely integrated with the headless `@refinedev/core` package.
-
 ## How it works?
 
 🔹 Step 1: Upload your DARS
