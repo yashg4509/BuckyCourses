@@ -24,7 +24,7 @@ chat_history = []
 
 
 @cl.on_chat_start
-def start():
+async def start():
     dars = pd.read_csv("data/dars.csv")
     comp_sci = pd.read_csv("data/comp_sci_filtered_avg.csv")
     major_reqs = pd.read_csv("data/cs_major_reqs.csv")
@@ -56,6 +56,35 @@ def start():
     )
 
     cl.user_session.set("agent", agent)
+
+    files = None
+    
+    while files is None:
+        files = await cl.AskFileMessage(
+        content="Please upload a Dars file to begin!",
+        accept=["application/pdf"],
+        max_size_mb=20,
+        timeout=180,
+        ).send()
+
+    file_content = files[0].content
+
+# Create a PDF reader object
+    pdf_file = PyPDF2.PdfReader(io.BytesIO(file_content))
+
+# Initialize a variable to store the extracted text
+    text = ""
+    
+# Iterate through each page and extract text
+    for page in pdf_file.pages:
+        text += page.extract_text()
+
+    my_data=pdftocsv.convert_to_text(text)
+    #my_data=pdftocsv.extract_course_data(text)
+    print("done")
+    
+    msg = cl.Message(content=f"Finished Processing file...")
+    await msg.send()
 
 
 @cl.on_message
