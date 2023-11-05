@@ -39,13 +39,13 @@ Look no further! We present to you the most powerful tool in your academic arsen
 
 ## How it works?
 
-🔹 Step 1: Upload your DARS
+🔹 Step 1: Upload your DARS <br>
 The first step is to upload your DARS. We need your DARS so that our model can understand your interests and the courses you have already taken.
 
-🔹 Step 2: Instantly Generate Your Perfect Four-Year Plan
+🔹 Step 2: Instantly Generate Your Perfect Four-Year Plan <br>
 Our cutting edge machine learning algorithm processes courses you have already taken, major requirements, average GPA data, and more. Like an advisor, BuckyCourses lets you answer any questions you have regarding coursework, how you can fulfill your requirements, information on certain courses, and recommends courses that align with your interests. All so you can make the most personalized and adaptable four year plan without stress!
 
-🔹 Step 3: Fine-Tune Your Plan with Ease
+🔹 Step 3: Fine-Tune Your Plan with Ease <br>
 Not satisfied with your initial plan? No problem! Tweak your schedule in real-time to explore different elective combinations, adjust your GPA goals, or even find the best balance between work and play.
 
 ## Understanding our Model
