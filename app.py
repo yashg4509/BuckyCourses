@@ -17,6 +17,10 @@ from langchain.chains import LLMChain
 from langchain.utilities import GoogleSearchAPIWrapper
 import pandas as pd
 import os
+import PyPDF2
+import re
+import csv
+import pdftocsv
 
 os.environ["OPENAI_API_KEY"] = "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"
 
