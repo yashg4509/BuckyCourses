@@ -1,14 +1,19 @@
-# Welcome to Chainlit! 🚀🤖
+# 🚀 Introducing BUCKYCOURSES 📚🦡
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+## 🌟 Your Four-Year Success Blueprint, Simplified! 🌟
 
-## Useful Links 🔗
+Are you a Computer Science major at UW Madison, not sure what courses to take which sem? Look no further! We present to you the most powerful tool in your academic arsenal – the BuckyCourses YOU DONT NEED TO WAIT FOR AN ADVISOR'S APPOINTMENT NO MORE
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## 🎓 Unlock Your Path to Academic Success with Ease 🎓
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+With BuckyCourses, we've revolutionized the way you plan your academic future. Imagine generating your customized four-year schedule at the click of a button, tailored to your goals, preferences, and dreams! Here's how it works:
 
-## Welcome screen
+🔹 Step 1:
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+🔹 Step 2: Instantly Generate Your Perfect Four-Year Plan
+In just a few moments, watch as the magic happens! Our cutting-edge algorithm generates a comprehensive four-year schedule for your major, accounting for all your requirements, preferences, and even room for extracurricular activities.
+
+🔹 Step 3: Fine-Tune Your Plan with Ease
+Not satisfied with your initial plan? No problem! Tweak your schedule in real-time to explore different elective combinations, adjust your GPA goals, or even find the best balance between work and play.
+
+🚀 Get Ready to chart your path to excellence with us! 🚀
